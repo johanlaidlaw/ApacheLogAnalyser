@@ -18,6 +18,8 @@ Clone the project and run:
 
     node app.js -f /var/log/apache2/request_time.log
 
+This will order the lines by average request time and will only show the top 20 lines.
+
 Alternative arguments:
 
     node app.js -help
